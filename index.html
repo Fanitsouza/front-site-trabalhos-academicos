@@ -13,10 +13,15 @@
 	    rel="stylesheet"> <!--fonte do projeto-->
 	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 	    referrerpolicy="no-referrer" /> <!--fonte dos icones-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	    <link rel="stylesheet" href="css/styles.css">
 
     </head>
     <body>
+
+<!---------------------------------------------------------Navbar------------------------------------------------------------------->
         <header id="home">
             <nav class="navbar">
                 <div class="navbar-header">
@@ -37,10 +42,10 @@
                         <a href="#diferenciais" class="navbar-list__link">Diferenciais</a>
                     </li>
                     <li>
-                        <a href="#pacotes" class="navbar-list__link">Pacotes</a>
+                        <a href="#planos" class="navbar-list__link">Planos</a>
                     </li>
                     <li>
-                        <a href="#galeria" class="navbar-list__link">Galeria</a>
+                        <a href="#vantagem" class="navbar-list__link">Vantagens</a>
                     </li>
                 </ul><!--navbar-list-->
                 
@@ -63,7 +68,285 @@
                 </ul>
             </nav><!-- navbar -->
 
+<!---------------------------------------------------------Hero------------------------------------------------------------------->
+            <div class="hero">
+                <video src="assets/acadpronto.mp4" autoplay muted loop class="hero__video"></video>
+                <div class="hero-texto"> 
+                    <h1 class="hero-texto__titulo">Conheça a Acadpronto <br> <span class="hero-texto__titulo--linha-2">site para estudantes</span></h1>
+                    <p class="hero-texto__descricao">Oferecemos um serviço de avaliação de trabalhos acadêmicos que vai além da simples correção,
+                        contribuindo para o seu crescimento acadêmico</p>
+                    <a href="#" class="hero-texto__cta">Explore</a>
+                </div> <!--hero-texto-->
+            </div><!--hero-->
         </header><!-- home -->
+
+<!--------------------------------------------------------- Section - Sobre ------------------------------------------------------------------->
+
+        <section id="sobre" class="sobre">
+            <h2 class="section__titulo">Sobre <span class="section__titulo--destaque">Nós</span></h2>
+            <div class="sobre-c">
+                <img src="assets/sobre.png" alt="Sobre nós" class="sobre-c__img">
+                <div class="sobre-texto">
+                    <h3 class="sobre-texto__titulo">Uma excelente maneira de conquistar uma boa nota</h3>
+                    <p>Nosso site oferece uma avaliação detalhada de seus trabalhos acadêmicos por 
+                        especialistas em diversas disciplinas. Com a AcadPronto, você garante que seu 
+                        trabalho seja revisado por profissionais com profunto conhecimento na área,
+                        recebendo feedback preciso e relevante.</p>
+                    <br>
+                    <p>Entregamos um relatório de avaliação detalhado acompanhado de um plano de melhoria 
+                        personalizado, com base nas suas abordagens. Experimento agora e eleve seu desempenho
+                        acadêmico.</p>
+                </div><!--sobre-texto-->
+            </div><!--sobre-c-->
+        </section>
+
+<!---------------------------------------------------------Section - Diferenciais ------------------------------------------------------------------->
+
+        <section id="diferenciais">
+            <h2 class="section__titulo"> Nossos <span class="section__titulo--destaque">diferenciais</span></h2>
+            <div class="diferenciais">
+                <article class="diferencial">
+                    <h3 class="diferencial__titulo diferencial__titulo--feedback">Feedback imediato</h3>
+                    <p class="diferencial__descricao">Permite ajustes imediatos e esclarecimentos 
+                        de dúvidas, tornando o processo de revisão mais dinâmico.</p>
+                </article>
+                
+                <article class="diferencial">
+                    <h3 class="diferencial__titulo diferencial__titulo--relatorio">Relatório completo</h3>
+                    <p class="diferencial__descricao">Fornecemos um relatório detalhado com os erros
+                        e áreas de melhoria em todo o seu trabalho de forma simples.</p>
+                </article>
+                
+                <article class="diferencial">
+                    <h3 class="diferencial__titulo diferencial__titulo--avaliacao">Time de Especialista</h3>
+                    <p class="diferencial__descricao">Oferecemos avaliações realizadas por um time de 
+                        especialistas com vasta experiência acadêmica.</p>
+                </article><!-- diferencial-->
+            </div><!-- diferenciais -->
+        </section>
+
+<!---------------------------------------------------------- Section - Planos ------------------------------------------------------------------>
+        <section id="planos">
+            <h2 class="section__titulo">Nossos <span class="section__titulo--destaque">planos</span></h2>
+
+            <div class="planos">
+                <article class="plano">
+                    <img src="assets/photo_2.png" alt="valor" class="plano__thumb">
+                    <div class="plano_info">
+                        <div class="info-header">
+                            <h3 class="info-header__titulo">Básico</h3>
+                            <p class="info-header__dias">Mensal</p>
+                        </div>
+                        <p class="info-body">Com o plano básico seu trabalho será avaliado por 1 Avaliador
+                            em até 10 dias</p>
+                        <div class="info-footer">
+                            <span>
+                                <i class="fas fa-users"></i>
+                                1 Avaliador
+                            </span>
+                            <p>R$ 50,00</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="plano">
+                    <img src="assets/photo_2.png" alt="valor" class="plano__thumb">
+                    <div class="plano_info">
+                        <div class="info-header">
+                            <h3 class="info-header__titulo">Médio</h3>
+                            <p class="info-header__dias">3 meses</p>
+                        </div>
+                        <p class="info-body">Com o plano médio seu trabalho será avaliado por 3 Avaliadores
+                            em até 5 dias
+                        </p>
+                        <div class="info-footer">
+                            <span>
+                                <i class="fas fa-users"></i>
+                                3 Avaliadores
+                            </span>
+                            <p>R$ 80,00</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="plano">
+                    <img src="assets/photo_2.png" alt="valor" class="plano__thumb">
+                    <div class="plano_info">
+                        <div class="info-header">
+                            <h3 class="info-header__titulo">Avançado</h3>
+                            <p class="info-header__dias">8 meses</p>
+                        </div>
+                        <p class="info-body">Com o plano avançado seu trabalho será avaliado por 5 Avaliadores
+                            em até 3 dias</p>
+                        <div class="info-footer">
+                            <span>
+                                <i class="fas fa-users"></i>
+                                5 Avaliadores
+                            </span>
+                            <p>R$ 120,00</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="plano">
+                    <img src="assets/photo_2.png" alt="valor" class="plano__thumb">
+                    <div class="plano_info">
+                        <div class="info-header">
+                            <h3 class="info-header__titulo">Premium</h3>
+                            <p class="info-header__dias">Anual</p>
+                        </div>
+                        <p class="info-body">Com o plano premium seu trabalho será avaliado por 7 Avaliadores
+                            em até 24 horas</p>
+                        <div class="info-footer">
+                            <span>
+                                <i class="fas fa-users"></i>
+                                7 Avaliadores
+                            </span>
+                            <p>R$ 180,00</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+<!--------------------------------------------------------- Section - newsletter ------------------------------------------------------------------->
+        <section>
+            <div class="newsletter-c">
+                <div class="newsletter-info">
+                    <h2 class="newsletter-info__titulo">Ficou com alguma dúvida?</h2>
+                    <p class="newsletter-info__descricao">Cadastre-se para receber nossas ofertas</p>
+                </div>
+                <form class="newsletter-form">
+                    <input type="text" placeholder="Seu email" class="newsletter-form__input">
+                    <button type="submit" class="newsletter-form__submit">Assinar</button>
+                </form>
+            </div> <!--newsletter-c-->
+        </section>
+
+<!--------------------------------------------------------- Section - Vantagens ------------------------------------------------------------------->
+        
+        <section class="vantagem" id="vantagem">
+            <article class="vantagem-item">
+                <img src="assets/img_1.png" alt="correçao de erros" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Correção de Erros</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_2.png" alt="qualidade academica" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Qualidade acadêmica</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_3.png" alt="recursos e ferramentas" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Recursos e ferramentas</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_4.png" alt="economia de tempo" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Economia de Tempo</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_5.png" alt="suporte" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Suporte Personalizado</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_6.png" alt="desenvolvimento" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Novas Habilidades</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_7.png" alt="confidencialidade" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Confidencialidade</h4>
+            </article>
+            <article class="vantagem-item">
+                <img src="assets/img_8.png" alt="disponibilidade" class="vantagem-item__thumb">
+                <h4 class="vantagem-item__nome">Disponibilidade</h4>
+            </article>
+        </section>
+
+<!--------------------------------------------------------- Footer ------------------------------------------------------------------->
+        <footer class="footer">
+            <ul class="footer-list">
+                <li class="footer-list__item">
+                    <a href="#home" class="footer-list__link">Home</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#sobre" class="footer-list__link">Sobre nós</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#diferenciais" class="footer-list__link">Diferenciais</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#planos" class="footer-list__link">Planos</a>
+                </li>
+                <li class="footer-list__item">
+                    <a href="#vantagens" class="footer-list__link">Vantagens</a>
+                </li>
+            </ul><!-- footer-list -->
+
+            <ul class="footer-icons">
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" class="footer-icons__icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="footer-icons__icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer-icons__icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul><!-- footer-icons -->
+
+            <p class="copyright">Copyright &copy; AcadPronto <span class="date"></span> Todos os direitos reservados.</p>
+
+        </footer>
+
+<!--------------------------------------------------------- Modal ------------------------------------------------------------------->
+
+        <div class="modal">
+            <div class="modal__close"><i class="fas fa-times"></i></div>
+
+            <div class="modal__content">
+                <div class="slider">
+                    <div class="slider-image">
+                        <div class="slider-image__number">1 / 8</div>
+                        <img src="assets/img_1.png" class="slider-image__img">
+                    </div><!--slider-image-->
+                    <div class="slider-buttons">
+                        <div class="slider-buttons__btn-prev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="slider-buttons__btn-next">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div><!-- slider-button -->
+                </div><!-- slider -->
+                <p class="slider-image-description">Teste de Caption</p>
+                <div class="slider-thumbs">
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_1.png" alt="correcao de erros">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_2.png" alt="melhoria de qualidade">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_3.png" alt="acesso a recurso">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_4.png" alt="economia de tempo">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_5.png" alt="suporte">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_6.png" alt="desenvolvimento">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_7.png" alt="confidencialidade">
+                    </div>
+                    <div class="slider-thumbs__img">
+                        <img src="assets/img_8.png" alt="disponibilidade">
+                    </div>
+                </div>
+            </div><!-- modal__content-->
+        </div><!-- modal -->
 
         <script src="js/scripts.js"></script>
     </body>
